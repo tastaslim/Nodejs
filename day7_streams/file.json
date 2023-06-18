@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Taslim",
+        "age" : 24,
+        "country" : "India"
+    },
+    {
+      "name": "Asad",
+      "age": 24,
+      "country": "India"
+    },
+    {
+      "name": "Shamim",
+      "age": 24,
+      "country": "India"
+    },
+    {
+      "name": "Angelo",
+      "age": 41,
+      "country": "US"
+    }
+]

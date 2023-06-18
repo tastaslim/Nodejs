@@ -1,34 +1,35 @@
 {
-  "name": "node-project",
+  "name": "nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tastaslim/Refactoring.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tastaslim/Refactoring/issues"
+  },
+  "homepage": "https://github.com/tastaslim/Refactoring#readme",
   "dependencies": {
-    "aws-sdk": "^2.1048.0",
-    "axios": "^0.24.0",
-    "crypto": "^1.0.1",
-    "dotenv": "^12.0.3",
-    "express": "^4.17.2",
-    "file-encryptor": "^0.1.1",
-    "file-system": "^1.2.2",
-    "fs-extra": "^10.0.0",
-    "joi": "^17.5.0",
-    "jsforce": "^1.11.0",
+    "@types/cors": "^2.8.13",
+    "archiver": "^5.3.1",
+    "aws-sdk": "^2.1356.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.4.0",
+    "express": "^4.18.2",
     "lodash": "^4.17.21",
-    "os-utils": "^0.0.14",
-    "pg": "^8.7.1",
-    "sns-sqs-big-payload": "^0.1.2",
-    "stream-replace": "^1.0.0",
-    "stream-replace-string": "^1.1.0",
-    "string-replace-stream": "^0.0.2",
-    "string-to-stream": "^3.0.1",
-    "uuidv4": "^6.2.12"
+    "nodemon": "^2.0.22",
+    "pdf-parse": "^1.1.1",
+    "split2": "^4.2.0",
+    "through2": "^4.0.2"
   }
 }
