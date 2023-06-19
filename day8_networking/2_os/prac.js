@@ -1,5 +1,5 @@
 import { log } from "console";
-import {arch, cpus, networkInterfaces, userInfo, release, platform} from "os";
+import {arch, cpus, networkInterfaces, userInfo, release, platform, machine} from "os";
 
 log("Architecture:", arch(), "\n");
 log("CPUs:", cpus(), "\n");
@@ -7,6 +7,7 @@ log("Network interfaces:", networkInterfaces(), "\n");
 log("Platform:", platform(), "\n");
 log("Release number:", release(), "\n");
 log("User info:", userInfo(), "\n");
+log("Machine type:", machine(), "\n");
 
 
 /*
